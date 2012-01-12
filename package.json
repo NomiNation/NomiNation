@@ -1,0 +1,16 @@
+{
+  "author": "dolphin278 <dolphin278@gmail.com>",
+  "name": "nomic",
+  "description": "Nomic game, where all rules are just code commits.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dolphin278/nomic.git"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "~0.5.x"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
