@@ -93,7 +93,6 @@ process.on('citizens loaded', function () {
   })
 
 // set up simple web-server
-require("http").createServer(function (req,res) {
 http.createServer(function (req,res) {
   res.writeHead(200,{})
   res.end("Hello, world! NomiNation "+process.env.npm_package_version)
