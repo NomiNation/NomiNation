@@ -1,6 +1,5 @@
 {
-  "author": "dolphin278 <dolphin278@gmail.com>",
-  "name": "nomic",
+  "name": "nomination",
   "description": "Nomic game, where all rules are just code commits.",
   "version": "0.0.0",
   "repository": {
