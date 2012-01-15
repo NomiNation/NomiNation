@@ -9,6 +9,7 @@ gh.setCredentials(process.env.npm_package_config_github_username,
 
 // get our fellow citizens
 people = []
+
 gh.getOrgMembers(process.env.npm_package_config_github_orgName,function (error,data) {
   assert.equal(error,null,'Error getting citizens list - '+error)
   people = data.map(function (x) { return x.login })
@@ -91,4 +92,8 @@ process.on('citizens loaded', function () {
     })
   })
 
-// check new rules
+// set up simple web-server
+require("http").createServer(function (req,res) {
+  res.writeHead(200,{})
+  res.end("Hello, world!")
+}).listen(process.env.PORT || 8001)
