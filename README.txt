@@ -1,0 +1,1 @@
+Nomic game, where all rules are just code commits.
