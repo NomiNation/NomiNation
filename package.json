@@ -25,5 +25,5 @@
     "winston":">=0.5.9",
     "github3":">=0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {}
 }
