@@ -95,7 +95,7 @@ process.on('citizens loaded', function () {
 // set up simple web-server
 http.createServer(function (req,res) {
   res.writeHead(200,{})
-  res.end("Hello, world! NomiNation "+process.env.npm_package_version)
+  res.end("Hello, world! NomiNation version "+process.env.npm_package_version)
 }).listen(process.env.PORT || 8001)
 
 process.on('exit',function () {
