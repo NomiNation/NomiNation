@@ -4,25 +4,20 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NomiNation/NomiNation.git"
+    "url": "git://github.com/dolphin278/nomic.git"
   },
   "main": "server.js",
-  "config": {
-    "github": {
-      "username":   "githubUsername",
-      "password":   "githubPassword",
-      "orgName":    "NomiNation",
-      "repo":       "NomiNation"
-    },
-    "voting": {
-      "timeSpan": 86400000
-    }
-  },
   "engines": {
     "node": "~0.5.x"
   },
-  "dependencies": {
-    "winston":">=0.5.9"
+  "dependencies": {},
+    "url": "git://github.com/dolphin278/nomic.git"
   },
+  "main": "server.js",
+  "engines": {
+    "node": "~0.5.x"
+  },
+  "dependencies": {},
+>>>>>>> 02ff196efa5a3f4784f3556211ce688b2ec058d1
   "devDependencies": {}
 }
