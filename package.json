@@ -22,10 +22,8 @@
     "node": "~0.5.x"
   },
   "dependencies": {
-    "winston":">=0.5.9"
+    "winston":">=0.5.9",
+    "github3":">=0.1.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "postinstall":"cd node_modules; git clone git://github.com/dolphin278/github3.git ; cd github3 ; npm install --dev-dependencies ; cd ../.."
-  }
 }
