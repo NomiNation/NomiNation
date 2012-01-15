@@ -26,6 +26,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall":"cd node_modules; git clone git://github.com/dolphin278/github3.git ; cd .."
+    "postinstall":"cd node_modules; git clone git://github.com/dolphin278/github3.git ; cd github3 ; npm install --dev-dependencies ; cd ../.."
   }
 }
